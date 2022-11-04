@@ -4,9 +4,9 @@ quickly and efficiently while showing how many care
 are left over at the end of the day.</p>
 
 ## Team Members
-**1. Zach Hidalgo**
+<a href="https://www.linkedin.com/in/zach-hidalgo-053ab5248/" target="_blank">Zack Hidalgo<a/>
 
-**2. [Miguel Gonzalez](https://www.linkedin.com/in/miguel-gonzalez-a2ab0a21b/)**
+<a href="https://www.linkedin.com/in/miguel-gonzalez-a2ab0a21b/" target="_blank">Miguel Gonzalez</a>
 
 ## Software: 
 The required software / module versions are:
