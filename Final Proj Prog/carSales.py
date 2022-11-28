@@ -6,14 +6,6 @@ Created on 10/31/2022 8:26:00
 Last modified: 10/31/2022 8:27:00
 """
 
-"""
-Programmers: Zach and Miguel
-Program: carSales
-Program Version: 3.10.8
-Created On: 10/31/2022 8:27:00
-Last Modified: 10/31/2022 8:28:00
-"""
-
 print("What type of car are you looking for?\n1 = Truck\n2 = Sedan\n3 = Suv\n4 = Van\n5 = Hatchback\n6 = Convertible "
       "\n7 = Coupe")
 choice = int(input("Select a type of vehicle by entering a number\t"))
