@@ -8,12 +8,25 @@ Last modified: 10/31/2022 8:27:00
 
 
 def carType():
-    print("What type of car are you looking for? \n 1. Truck \n 2. Sedan \n 3. Suv \n 4. Van \n 5. Hatchback "
+    print("What type of car are you looking for? \n 1 = Truck \n 2. Sedan \n 3. Suv \n 4. Van \n 5. Hatchback "
           "\n 6. Convertible \n 7. Coupe")
     choice = int(input("Select a type of vehicle by entering a number\t"))
-    if choice >7, <1
-        carType()
-    return choice
+    if choice == 1:
+        Truck()
+    elif choice ==2:
+        Sedan()
+    elif choice == 3:
+        Van()
+    elif choice == 4:
+        Hatchback()
+    elif choice == 5:
+        Convertible()
+    elif choice == 6:
+        Coupe()
+
+# if choice >7, <1
+#     carType()    This code is for further Improvement
+# return choice
 
 def truckFord():
     print("What model of Ford truck do you want?\n1 = Maverick\n 2 = Ranger\n 3 = F-150\n 4 = F-250\n 5 = F-350\n"
@@ -34,6 +47,115 @@ def truckFord():
     else:
         print("There is not any vehicles other than the listings sold at our dealership.")
         truckFord()        # use track run var to limit times reruns
+
+def truckChevy():
+    print("What model of Chevy truck do you want?\n 1 = Colorado\n 2 = S10 Max\n 3 = Silverado\n 4 = 1500\n 5 = 2500\n 6 = 3500")
+    var3 = int(input("Select a model by entering a number\t"))
+    if var3 == 1:
+        print("The price is $28,000.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var3 == 2:
+        print("The price is $19,215.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var3 == 3:
+        print("The price is $35,600.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var3 == 4:
+        print("The price is $49,200.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var3 == 5:
+        print("The price is $69,780.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var3 == 6:
+        print("The price is $93,900.\n Would you like to pay with cash, card, or take out a loan?")
+    else:
+        print("There is not any vehicles other than the listings sold at our dealership.")
+
+def truckDodge():
+    print("What model of Dodge truck do you want?\n 1 = Dakota \n 2 = 1500\n 3 = 2500\n 4 = 3500\n 5 = 4500")
+    var4 = int(input("Select a model by entering a number\t"))
+    if var4 == 1:
+        print("The price is $25,560.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var4 == 2:
+        print("The price is $42,285.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var4 == 3:
+        print("The price is $70,955.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var4 == 4:
+        print("The price is $88,750.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var4 == 5:
+        print("The price is $97,240.\n Would you like to pay with cash, card, or take out a loan?")
+    else:
+        print("There is not any vehicles other than the listings sold at our dealership.")
+
+def truckToyota():
+    print("What model of Toyota truck do you want?\n 1 = Hilux \n 2 = Tacoma\n 3 = Tundra")
+    var5 = int(input("Select a model by entering a number\t"))
+    if var5 == 1:
+        print("The price is $58,225.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var5 == 2:
+        print("The price is $49,390.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var5 == 3:
+        print("The price is $75,245.\n Would you like to pay with cash, card, or take out a loan?")
+    else:
+        print("There is not any vehicles other than the listings sold at our dealership.")
+
+def truckNissan():
+    print("What model of Nissan truck do you want?\n 1 = Frontier\n 2 = Titan")
+    var6 = int(input("Select a model by entering a number\t"))
+    if var6 == 1:
+        print("The price is $39,120.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var6 == 2:
+        print("The price is $65,070.\n Would you like to pay with cash, card, or take out a loan?")
+    else:
+        print("There is not any vehicles other than the listings sold at our dealership.")
+
+def truckGMC():
+    print("What model of GMC truck do you want?\n 1 = Canyon\n 2 = Sierra\n 3 = 1500\n 4 = 2500\n 5 = 3500")
+    var7 = int(input("Select a model by entering a number\t"))
+    if var7 == 1:
+        print("The price is $45,000.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var7 == 2:
+        print("The price is $67,000.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var7 == 3:
+        print("The price is $72,000.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var7 == 4:
+        print("The price is $79,995.\n Would you like to pay with cash, card, or take out a loan?")
+    elif var7 == 5:
+        print("The price is $87,985.\n Would you like to pay with cash, card, or take out a loan?")
+    else:
+        print("There is not any vehicles other than the listings sold at our dealership.")
+
+def suvFord():
+    print(
+        "What model of Ford SUV do you want?\n1 = Bronco\n2 = EcoSport\n3 = Edge\n4 = Escape\n5 = Expedition\n6 = Explorer" "\n7 = Flex\n8 = Mustang Mach-E")
+    _var = int(input("Select a model by entering a number\t"))
+    if _var == 1:
+        print("The price is $44,495.\n Would you like to pay with cash, card, or take out a loan?")
+    elif _var == 2:
+        print("The price is $28,545.\n Would you like to pay with cash, card, or take out a loan?")
+    elif _var == 3:
+        print("The price is $46,675.\n Would you like to pay with cash, card, or take out a loan?")
+    elif _var == 4:
+        print("The price is $38,515.\n Would you like to pay with cash, card, or take out a loan?")
+    elif _var == 5:
+        print("The price is $84,670.\n Would you like to pay with cash, card, or take out a loan?")
+    elif _var == 6:
+        print("The price is $56,275.\n Would you like to pay with cash, card, or take out a loan?")
+    elif _var == 7:
+        print("The price is $40,740.\n Would you like to pay with cash, card, or take out a loan?")
+    elif _var == 8:
+        print("The price is $61,690.\n Would you like to pay with cash, card, or take out a loan?")
+    else:
+        print("There is not any vehicles other than the listings sold at our dealership.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def Truck():
     print("What brand of truck?\n1 = Ford \n 2 = Chevy \n 3 = Dodge \n 4 = Toyota \n 5 = Nissan \n 6 = GMC")
     var = int(input("Select a brand by entering a number\t"))
@@ -41,96 +163,28 @@ def Truck():
         truckFord()         #Calling the truckFord function
 
     elif var == 2:
-        print("What model of Chevy truck do you want?\n 1 = Colorado\n 2 = S10 Max\n 3 = Silverado\n 4 = 1500\n 5 = 2500\n 6 = 3500")
-        var3 = int(input("Select a model by entering a number\t"))
-        if var3 == 1:
-            print("The price is $28,000.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var3 == 2:
-            print("The price is $19,215.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var3 == 3:
-            print("The price is $35,600.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var3 == 4:
-            print("The price is $49,200.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var3 == 5:
-            print("The price is $69,780.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var3 == 6:
-            print("The price is $93,900.\n Would you like to pay with cash, card, or take out a loan?")
-        else:
-            print("There is not any vehicles other than the listings sold at our dealership.")
+        truckChevy()
+
+
     elif var == 3:
-        print("What model of Dodge truck do you want?\n 1 = Dakota \n 2 = 1500\n 3 = 2500\n 4 = 3500\n 5 = 4500")
-        var4 = int(input("Select a model by entering a number\t"))
-        if var4 == 1:
-            print("The price is $25,560.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var4 == 2:
-            print("The price is $42,285.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var4 == 3:
-            print("The price is $70,955.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var4 == 4:
-            print("The price is $88,750.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var4 == 5:
-            print("The price is $97,240.\n Would you like to pay with cash, card, or take out a loan?")
-        else:
-            print("There is not any vehicles other than the listings sold at our dealership.")
+        truckDodge()
+
     elif var == 4:
-        print("What model of Toyota truck do you want?\n 1 = Hilux \n 2 = Tacoma\n 3 = Tundra")
-        var5 = int(input("Select a model by entering a number\t"))
-        if var5 == 1:
-            print("The price is $58,225.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var5 == 2:
-            print("The price is $49,390.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var5 == 3:
-            print("The price is $75,245.\n Would you like to pay with cash, card, or take out a loan?")
-        else:
-            print("There is not any vehicles other than the listings sold at our dealership.")
+
+        truckToyota()
+
     elif var == 5:
-        print("What model of Nissan truck do you want?\n 1 = Frontier\n 2 = Titan")
-        var6 = int(input("Select a model by entering a number\t"))
-        if var6 == 1:
-            print("The price is $39,120.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var6 == 2:
-            print("The price is $65,070.\n Would you like to pay with cash, card, or take out a loan?")
-        else:
-            print("There is not any vehicles other than the listings sold at our dealership.")
+        truckNissan()
+
     elif var == 6:
-        print("What model of GMC truck do you want?\n 1 = Canyon\n 2 = Sierra\n 3 = 1500\n 4 = 2500\n 5 = 3500")
-        var7 = int(input("Select a model by entering a number\t"))
-        if var7 == 1:
-            print("The price is $45,000.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var7 == 2:
-            print("The price is $67,000.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var7 == 3:
-            print("The price is $72,000.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var7 == 4:
-            print("The price is $79,995.\n Would you like to pay with cash, card, or take out a loan?")
-        elif var7 == 5:
-            print("The price is $87,985.\n Would you like to pay with cash, card, or take out a loan?")
-        else:
-            print("There is not any vehicles other than the listings sold at our dealership.")
+        truckGMC()
+
 def SUV():
     print("What brand of SUV?\n1 = Ford \n 2 = Chevy \n 3 = Dodge \n 4 = Toyota \n 5 = Nissan \n 6 = GMC\n 7 = Kia\n 8 = Infinity")
     var1 = int(input("Select a brand by entering a number\t"))
     if var1 == 1:
-        print("What model of Ford SUV do you want?\n1 = Bronco\n2 = EcoSport\n3 = Edge\n4 = Escape\n5 = Expedition\n6 = Explorer" "\n7 = Flex\n8 = Mustang Mach-E")
-        _var = int(input("Select a model by entering a number\t"))
-        if _var == 1:
-            print("The price is $44,495.\n Would you like to pay with cash, card, or take out a loan?")
-        elif _var == 2:
-            print("The price is $28,545.\n Would you like to pay with cash, card, or take out a loan?")
-        elif _var == 3:
-            print("The price is $46,675.\n Would you like to pay with cash, card, or take out a loan?")
-        elif _var == 4:
-            print("The price is $38,515.\n Would you like to pay with cash, card, or take out a loan?")
-        elif _var == 5:
-            print("The price is $84,670.\n Would you like to pay with cash, card, or take out a loan?")
-        elif _var == 6:
-            print("The price is $56,275.\n Would you like to pay with cash, card, or take out a loan?")
-        elif _var == 7:
-            print("The price is $40,740.\n Would you like to pay with cash, card, or take out a loan?")
-        elif _var == 8:
-            print("The price is $61,690.\n Would you like to pay with cash, card, or take out a loan?")
-        else:
-            print("There is not any vehicles other than the listings sold at our dealership.")
+        suvFord()
+
     elif var1 == 2:
         print("What model of Chevy SUV do you want?\n1 = Blazer\n2 = Equinox\n3 = Bolt EUV\n4 = Captiva\n5 = Groove\n6 = Trax" "\n7 = Suburban\n8 = Tahoe")
         _var1 = int(input("Select a model by entering a number\t"))
